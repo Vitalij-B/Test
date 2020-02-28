@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Guys>
+
+ <guy><name>Name1</name><lastname>Lastname1</lastname><mail>p@gmail.com</mail><phone>097777777</phone><file/></guy>
+ <guy><name>Name2</name><lastname>Lastname2</lastname><mail>np@gmail.com</mail><phone>097666666</phone><file>116006882.jpg</file></guy>
+ <guy><name>3Name3</name><lastname>3Lastname3</lastname><mail>np@gmail.com</mail><phone>097555555</phone><file>116006882.jpg</file></guy>
+ <guy><name>Name4</name><lastname>Lastname4</lastname><mail>p@gmail.com</mail><phone>09744444444</phone><file/></guy>
+ <guy><name>Name4</name><lastname>Lastname4</lastname><mail>p@gmail.com</mail><phone>09744444444</phone><file/></guy>
+ <guy><name>1Name3</name><lastname>2Name</lastname><mail>n@gmail.com</mail><phone>+38099856461</phone><file>116006882.jpg</file></guy>
+ <guy><name>Юра</name><lastname>Мельник</lastname><mail>jhgfd@nail.com</mail><phone>+38(097) 144-14-14</phone><file>IMG_20200222_111930.jpg</file></guy>
+ <guy><name>Віталій</name><lastname>Бойчук</lastname><mail>p@gmail.com</mail><phone>0971115111</phone><file/></guy>
+ <guy><name>Vit</name><lastname>Бойчук</lastname><mail>p@gmail.com</mail><phone>097633333333</phone><file/></guy>
+ 
+ </Guys>
