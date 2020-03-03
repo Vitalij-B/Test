@@ -9,63 +9,78 @@
 	  box-sizing: border-box;
 	}
 #contact-wrapper {
-		width:430px;
-		border:1px solid #e2e2e2;
-		background:#f1f1f1;
-		padding:20px;
-		margin-left:40px;
+	width:300px;
+	padding:10px;
+	margin:0 auto;
 	}
+.input{
+	border: 2px solid #000;
+	outline: none; 
+	height: 25px; 
+	width: 250px; 
+	margin-bottom: 10px;
+	}
+input[type="submit"] {
+    background: blue;  
+    color: white; 
+	border-radius:15px;
+	height: 35px; 
+	width: 130px;
+	margin: 20px 50px;
+   }
 table {
-	  border-collapse: collapse;
-	  font-size: 1.2rem;
-	  margin:0 0 40px 40px;
+	border-collapse: collapse;
+	font-size: 1.2rem;
+	margin: auto; 
+	text-align:center;
 	}
 table caption {
 	  font-size: 2rem;
-	  margin-bottom: 1rem;
+	  margin-bottom: 1rem;	 
 	}
-	tr td, tr th { padding: .4rem; }
-	caption { 
+tr td, tr th { 
+	padding: .4rem; }
+caption { 
 	  font-size: 1.4rem;
 	  font-weight: bolder;
 	}
-	tr td:nth-of-type(3), tr td:nth-of-type(4) { 
-	  text-align: center;
-	}
-	thead {
+thead {
 	  border-bottom: 2px solid #333;
+	  font-weight: bold;
 	}
-	tbody tr {
+tbody tr {
 	  border-bottom: 1px solid #ddd;
 	}
-	tr.hidden td {
+tr.hidden td {
 	  animation: hide 1s 1s forwards;
+	   border: 0px solid white;
 	}
-	tr.hidden>td>img {
+tr.hidden>td>img {
 	  height:0px;
 	}
-	tr.hidden {
+tr.hidden {
 	  opacity: 0;
 	  border-bottom: none;
 	}
-	tbody tr button {
-	  width: 36px;
-	  height: 36px;
-	  margin-left: 1rem;
+tbody tr button {
+	  width: 55px;
+	  height: 30px;	  
 	  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/trashcan.svg);
+	  background-color: red;
 	  border: none;
+	  border-radius:15px;
 	  background-position: center 4px;
 	  background-repeat: no-repeat;
 	  background-size: 25px 25px;
 	  opacity: .6;
 	  transition: .5s;
 	}
-	tbody tr button:hover {
+tbody tr button:hover {
 	  opacity: .9;
 	  cursor: pointer;
 	}
 	/* заголовок відсортованого стовбця */
-	table.sort thead td.curcol{
+table.sort thead td.curcol{
 		background-color:#999;
-		color:#FFFFFF
+		color:#FFFFFF;	
 	}
