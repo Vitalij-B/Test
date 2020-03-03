@@ -1,9 +1,8 @@
 <html>
 <head>
 	<title>Форма зворотнього зв'язку</title>
-<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 	 <div id="contact-wrapper">
 		<h2 align ="center">FORM</h2>		
@@ -16,9 +15,7 @@
 			<input type="submit" value="Надіслати" class="button_ok">
 		</form>
 	</div>	
-
 <?php	
-
 		$xml = simplexml_load_file('file.xml');
 		echo"<table border='1px' width='50%' id='table' class='sort'> ";	
 		echo "<thead>
@@ -33,8 +30,8 @@
 			echo "<td><img width='150px' height='150px' src={$x->file}></td>";
 			echo "</tr>";    
 			}
-		echo "</tbody></table>";		
-		
+		echo "</tbody></table>";
+	
 if (isset($_POST['mail']) ) {
 		/*   завантаження, зміна розміру і пропорцій, збереження. 
 		include('classSimpleImage.php');
@@ -56,7 +53,6 @@ if (isset($_POST['mail']) ) {
 	exit;		
 }
 ?>	
-
 	<script src="script.js"></script>
 </body>
 <html>
